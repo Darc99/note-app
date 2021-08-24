@@ -39,6 +39,13 @@ const removeNote = (title) => {
     }
 }
 
+const listNote = () => {
+    const notes = loadNotes()
+    console.log(chalk.inverse('Your notes'))
+    notes.forEach(note => {
+        console.log(note.title)
+    });
+}
 
 //to save note
 const saveNotes = (notes) => {
@@ -59,5 +66,6 @@ const loadNotes = () => {
 module.exports = {
     getNotes: getNotes,
     addNote: addNote,
-    removeNote: removeNote
+    removeNote: removeNote,
+    listNote: listNote
 }
