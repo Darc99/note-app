@@ -1,1 +1,7 @@
-[{"title":"dance","body":"legwork"},{"title":"Lister","body":"cow, goat"}]
+[{
+    "title": "dance",
+    "body": "legwork"
+}, {
+    "title": "Lister",
+    "body": "cow, goat"
+}]
